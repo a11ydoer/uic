@@ -1,0 +1,233 @@
+:root {
+    /* UIC Brand Colors */
+    --uic-navy: #001E62;
+    --uic-red: #D50032;
+    --uic-gray: #4A4A4A;
+    --uic-light-gray: #F4F4F4;
+    --white: #FFFFFF;
+    
+    /* Functional Colors */
+    --col-r-bg: #E3F2FD; --col-r-text: #1565C0;
+    --col-a-bg: #FBE9E7; --col-a-text: #D84315;
+    --col-c-bg: #E8F5E9; --col-c-text: #2E7D32;
+    --col-i-bg: #FFF3E0; --col-i-text: #EF6C00;
+
+    --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+    --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+    --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif; /* UIC uses Lato often for web */
+    background-color: #F8F9FA;
+    color: var(--uic-navy);
+    line-height: 1.6;
+}
+
+/* Header */
+.uic-header {
+    background: linear-gradient(135deg, var(--uic-navy) 0%, #001548 100%);
+    color: var(--white);
+    padding: 2rem 1rem;
+    box-shadow: var(--shadow-md);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.uic-logo-circle {
+    width: 60px;
+    height: 60px;
+    background-color: var(--uic-red);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merriweather', serif; /* Serif for the logo part */
+    font-weight: 700;
+    font-size: 1.5rem;
+    border: 3px solid var(--white);
+    box-shadow: var(--shadow-sm);
+}
+
+.uic-header h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+
+.uic-header h1 span {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+    opacity: 0.9;
+}
+
+/* Main Container */
+.container {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+}
+
+/* Legend */
+.raci-legend {
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+    margin-bottom: 2rem;
+    border-left: 5px solid var(--uic-red);
+}
+
+.raci-legend h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: var(--uic-gray);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.legend-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 0.9rem;
+}
+
+.role-r { background-color: var(--col-r-bg); color: var(--col-r-text); }
+.role-a { background-color: var(--col-a-bg); color: var(--col-a-text); }
+.role-c { background-color: var(--col-c-bg); color: var(--col-c-text); }
+.role-i { background-color: var(--col-i-bg); color: var(--col-i-text); }
+
+/* Table */
+.chart-container {
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+    overflow-x: auto; /* Responsive scroll */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 800px; /* Ensure table doesn't squish too much */
+}
+
+thead {
+    background-color: var(--uic-light-gray);
+    border-bottom: 2px solid #E0E0E0;
+}
+
+th {
+    padding: 1.2rem;
+    text-align: left;
+    font-weight: 700;
+    color: var(--uic-navy);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+th:first-child {
+    width: 40%; /* Task column width */
+    padding-left: 2rem;
+}
+
+td {
+    padding: 1rem 1.2rem;
+    border-bottom: 1px solid #EEEEEE;
+    color: var(--uic-gray);
+    font-size: 0.95rem;
+    transition: background-color 0.2s ease;
+}
+
+td:first-child {
+    font-weight: 600;
+    color: var(--uic-navy);
+    padding-left: 2rem;
+}
+
+/* Hover Effects */
+tr:hover td {
+    background-color: #F8F9FA;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* Cell Centering for RACI values */
+td:not(:first-child) {
+    text-align: center;
+}
+
+.raci-cell {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+/* Footer */
+.uic-footer {
+    text-align: center;
+    padding: 3rem 0;
+    color: #888;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    border-top: 1px solid #E0E0E0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem;
+        margin: 2rem auto;
+    }
+    
+    .uic-header h1 {
+        font-size: 1.4rem;
+    }
+    
+    .uic-header h1 span {
+        font-size: 1.1rem;
+    }
+    
+    .legend-grid {
+        gap: 1rem;
+    }
+}
