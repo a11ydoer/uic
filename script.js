@@ -48,15 +48,15 @@ const tasks = [
     },
     {
         activity: 'Equalify Reflow (AI PDF Converter)',
-        raci: { 'jemma': 'A', 'helen': 'I', 'blake': 'R', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'R', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+        raci: { 'jemma': 'C', 'helen': 'I', 'blake': 'R', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'R', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
         activity: 'Equalify Roadmap',
-        raci: { 'jemma': 'A', 'helen': 'C', 'blake': 'R', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+        raci: { 'jemma': 'R', 'helen': 'C', 'blake': 'R', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
         activity: 'Equalify Manual testing',
-        raci: { 'jemma': 'A', 'helen': 'C', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'R', 'trey': 'I', 'lucy': 'R', 'brother-j': 'R', 'stefin': 'I' }
+        raci: { 'jemma': 'C', 'helen': 'C', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'R', 'trey': 'I', 'lucy': 'R', 'brother-j': 'R', 'stefin': 'I' }
     },
     {
         activity: 'Accessibility Roadmap',
@@ -68,11 +68,15 @@ const tasks = [
     },
     {
         activity: 'Equalify Infrastructure',
-        raci: { 'jemma': 'A', 'helen': 'C', 'blake': 'C', 'chris-a': 'R', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+        raci: { 'jemma': 'C', 'helen': 'C', 'blake': 'C', 'chris-a': 'R', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
         activity: 'Exception Review Process',
         raci: { 'jemma': 'A', 'helen': 'R', 'blake': 'C', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+    },
+    {
+        activity: 'Stakeholder Management',
+        raci: { 'jemma': 'A', 'helen': 'I', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     }
 ];
 
