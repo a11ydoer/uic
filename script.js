@@ -44,7 +44,7 @@ const tasks = [
     },
     {
         activity: 'Accessibility Outreach Beyond UIC',
-        raci: { 'jemma': 'A', 'helen': 'C', 'blake': 'R', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+        raci: { 'jemma': 'A', 'helen': 'C', 'blake': 'R', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'R' }
     },
     {
         activity: 'Accessibility Resources and Tools',
