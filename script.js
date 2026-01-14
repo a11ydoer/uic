@@ -1,112 +1,145 @@
 const roles = [
-    { id: 'director', title: 'Director of Digital Accessibility' },
-    { id: 'asst-dir-services', title: 'Assistant Director of Digital Accessibility Services' },
-    { id: 'asst-dir-eng', title: 'Assistant Director of Digital Accessibility Engineering' }
+    { id: 'jemma', title: 'Jemma' },
+    { id: 'helen', title: 'Helen' },
+    { id: 'blake', title: 'Blake' },
+    { id: 'chris-a', title: 'Chris A' },
+    { id: 'michael', title: 'Michael' },
+    { id: 'michelle', title: 'Michelle' },
+    { id: 'dylan', title: 'Dylan' },
+    { id: 'chris-k', title: 'Christopher K' },
+    { id: 'trey', title: 'Trey' },
+    { id: 'lucy', title: 'Lucy' },
+    { id: 'brother-j', title: 'Brother J' },
+    { id: 'stefin', title: 'Stefin' }
 ];
 
 const tasks = [
     {
-        activity: 'Policy Creation & Updates',
-        raci: {
-            'director': 'A',
-            'asst-dir-services': 'C',
-            'asst-dir-eng': 'C'
-        }
+        activity: 'Accessibility Training and Consultation Services',
+        raci: { 'jemma': 'A', 'helen': 'A', 'blake': 'C', 'chris-a': 'I', 'michael': 'R', 'michelle': 'R', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'R', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
-        activity: 'Automated Compliance Reporting (Axe/Deque)',
-        raci: {
-            'director': 'I',
-            'asst-dir-services': 'I',
-            'asst-dir-eng': 'A/R'
-        }
+        activity: 'Equalify Accessibility Platform',
+        raci: { 'jemma': 'A', 'helen': 'C', 'blake': 'A/R', 'chris-a': 'R', 'michael': 'C', 'michelle': 'I', 'dylan': 'R', 'chris-k': 'R', 'trey': 'R', 'lucy': 'R', 'brother-j': 'R', 'stefin': 'I' }
     },
     {
-        activity: 'Manual Accessibility Testing',
-        raci: {
-            'director': 'I',
-            'asst-dir-services': 'R',
-            'asst-dir-eng': 'A/C'
-        }
+        activity: 'Equalify Transition and Training',
+        raci: { 'jemma': 'A/R', 'helen': 'R', 'blake': 'R', 'chris-a': 'C', 'michael': 'R', 'michelle': 'R', 'dylan': 'C', 'chris-k': 'C', 'trey': 'C', 'lucy': 'R', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
-        activity: 'Training & Workshops',
-        raci: {
-            'director': 'I',
-            'asst-dir-services': 'A/R',
-            'asst-dir-eng': 'C'
-        }
+        activity: 'UIC Open Source Fund',
+        raci: { 'jemma': 'A', 'helen': 'C', 'blake': 'A', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'R' }
     },
     {
-        activity: 'Remediation Consultation',
-        raci: {
-            'director': 'I',
-            'asst-dir-services': 'R',
-            'asst-dir-eng': 'A/C'
-        }
+        activity: 'ADA Title II Preparation',
+        raci: { 'jemma': 'A/R', 'helen': 'R', 'blake': 'R', 'chris-a': 'C', 'michael': 'C', 'michelle': 'I', 'dylan': 'C', 'chris-k': 'C', 'trey': 'C', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
-        activity: 'Exception Request Review',
-        raci: {
-            'director': 'A',
-            'asst-dir-services': 'R',
-            'asst-dir-eng': 'R'
-        }
+        activity: 'AI Literacy',
+        raci: { 'jemma': 'A', 'helen': 'C', 'blake': 'A', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'R' }
     },
     {
-        activity: 'Tool/Platform Procurement Review',
-        raci: {
-            'director': 'A',
-            'asst-dir-services': 'C',
-            'asst-dir-eng': 'R'
-        }
+        activity: 'Accessibility Outreach',
+        raci: { 'jemma': 'C', 'helen': 'A', 'blake': 'C', 'chris-a': 'I', 'michael': 'R', 'michelle': 'R', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+    },
+    {
+        activity: 'Accessibility Tool Set',
+        raci: { 'jemma': 'C', 'helen': 'A', 'blake': 'R', 'chris-a': 'I', 'michael': 'C', 'michelle': 'I', 'dylan': 'C', 'chris-k': 'C', 'trey': 'C', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+    },
+    {
+        activity: 'Equalify Reflow (AI PDF Converter)',
+        raci: { 'jemma': 'A', 'helen': 'I', 'blake': 'R', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'R', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+    },
+    {
+        activity: 'Equalify Roadmap',
+        raci: { 'jemma': 'A', 'helen': 'C', 'blake': 'R', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+    },
+    {
+        activity: 'Equalify Manual testing',
+        raci: { 'jemma': 'A', 'helen': 'C', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'R', 'trey': 'I', 'lucy': 'R', 'brother-j': 'R', 'stefin': 'I' }
+    },
+    {
+        activity: 'Accessibility Roadmap',
+        raci: { 'jemma': 'A', 'helen': 'C', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'R', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+    },
+    {
+        activity: 'New Employee Onboarding',
+        raci: { 'jemma': 'C', 'helen': 'A', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'R', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+    },
+    {
+        activity: 'Equalify Infrastructure',
+        raci: { 'jemma': 'A', 'helen': 'C', 'blake': 'C', 'chris-a': 'R', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+    },
+    {
+        activity: 'Exception Review Process',
+        raci: { 'jemma': 'A', 'helen': 'R', 'blake': 'C', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     }
 ];
 
 function initChart() {
-    const tableHeadRow = document.querySelector('#raci-table thead tr');
-    const tableBody = document.querySelector('#raci-table tbody');
+    renderRoleCards();
+}
 
-    // 1. Render Header Columns
+function renderRoleCards() {
+    const container = document.querySelector('#role-cards-container');
+    container.innerHTML = '';
+
     roles.forEach(role => {
-        const th = document.createElement('th');
-        th.textContent = role.title;
-        tableHeadRow.appendChild(th);
-    });
+        // Create Card
+        const card = document.createElement('article');
+        card.classList.add('role-card');
 
-    // 2. Render Body Rows
-    tasks.forEach(task => {
-        const tr = document.createElement('tr');
-        
-        // Task Name
-        const tdTask = document.createElement('td');
-        tdTask.textContent = task.activity;
-        tr.appendChild(tdTask);
+        // Header
+        const header = document.createElement('div');
+        header.classList.add('role-card-header');
+        header.innerHTML = `<h3>${role.title}</h3>`;
+        card.appendChild(header);
 
-        // Role Values
-        roles.forEach(role => {
-            const td = document.createElement('td');
-            const letters = (task.raci[role.id] || '-').split('/'); // Handle "A/R" etc.
-            
-            // Create badges for each letter
-            letters.forEach(letter => {
-                if (letter === '-') {
-                    td.innerHTML += '<span style="color: #ccc;">&mdash;</span>'; // Em dash for empty
-                } else {
-                    const span = document.createElement('span');
-                    span.classList.add('raci-cell');
-                    span.classList.add(`role-${letter.toLowerCase()}`);
-                    span.textContent = letter;
-                    td.appendChild(span);
-                    // Add small space if multiple
-                    td.appendChild(document.createTextNode(' ')); 
-                }
+        // Body
+        const body = document.createElement('div');
+        body.classList.add('role-card-body');
+
+        // Categories (A, R, C, I)
+        const categories = [
+            { code: 'A', label: 'Accountable' },
+            { code: 'R', label: 'Responsible' },
+            { code: 'C', label: 'Consulted' },
+            { code: 'I', label: 'Informed' }
+        ];
+
+        categories.forEach(cat => {
+            // Find tasks for this category
+            const assignedTasks = tasks.filter(task => {
+                const val = task.raci[role.id];
+                return val && val.includes(cat.code);
             });
-            
-            tr.appendChild(td);
+
+            if (assignedTasks.length > 0) {
+                const group = document.createElement('div');
+                group.classList.add('raci-group');
+
+                const groupTitle = document.createElement('h4');
+                groupTitle.innerHTML = `<span class="badge role-${cat.code.toLowerCase()}">${cat.code}</span> ${cat.label}`;
+                group.appendChild(groupTitle);
+
+                const ul = document.createElement('ul');
+                assignedTasks.forEach(t => {
+                    const li = document.createElement('li');
+                    li.textContent = t.activity;
+                    ul.appendChild(li);
+                });
+                group.appendChild(ul);
+                body.appendChild(group);
+            }
         });
 
-        tableBody.appendChild(tr);
+        // If no tasks found at all
+        if (body.children.length === 0) {
+            body.innerHTML = '<p style="color: #888; font-style: italic;">No specific RACI assignments.</p>';
+        }
+
+        card.appendChild(body);
+        container.appendChild(card);
     });
 }
 

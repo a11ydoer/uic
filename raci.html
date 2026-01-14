@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UIC Digital Accessibility RACI Chart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="uic-header">
+        <div class="logo-container">
+            <div class="uic-logo-circle">
+                <span class="uic-text">UIC</span>
+            </div>
+            <h1>UIC Digital Accessibility Team <br><span>RACI Matrix</span></h1>
+        </div>
+        <nav class="main-nav">
+            <a href="project-portfolio.html">Project Portfolio</a>
+            <a href="raci.html" class="active">RACI Matrix</a>
+            <a href="https://it.uic.edu/accessibility/digital-accessibility-team/" target="_blank">Members</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section class="raci-legend">
+            <h2>RACI Definitions</h2>
+            <div class="legend-grid">
+                <div class="legend-item"><span class="badge role-r">R</span> <strong>Responsible</strong> <span
+                        style="font-weight: 300; font-style: italic; margin-left: 4px;">(The Doer)</span></div>
+                <div class="legend-item"><span class="badge role-a">A</span> <strong>Accountable</strong> <span
+                        style="font-weight: 300; font-style: italic; margin-left: 4px;">(The Buck Stops Here)</span>
+                </div>
+                <div class="legend-item"><span class="badge role-c">C</span> <strong>Consulted</strong> <span
+                        style="font-weight: 300; font-style: italic; margin-left: 4px;">(Penny for Thoughts)</span>
+                </div>
+                <div class="legend-item"><span class="badge role-i">I</span> <strong>Informed</strong> <span
+                        style="font-weight: 300; font-style: italic; margin-left: 4px;">(Just FYI)</span></div>
+            </div>
+        </section>
+
+
+        <section class="chart-container" style="margin-top: 3rem; background: transparent; box-shadow: none;">
+            <h2>Team Member Responsibilities</h2>
+            <div id="role-cards-container" class="role-grid">
+                <!-- Cards will be injected here -->
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="uic-footer">
+        <p>&copy; 2026 University of Illinois Chicago | <a href="https://it.uic.edu/accessibility/"
+                style="color: inherit; text-decoration: underline;">Digital Accessibility Team</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
