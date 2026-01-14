@@ -85,6 +85,10 @@ const tasks = [
     {
         activity: 'Stakeholder Management',
         raci: { 'jemma': 'A', 'helen': 'I', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+    },
+    {
+        activity: 'Budget Planning',
+        raci: { 'jemma': 'A', 'helen': 'I', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     }
 ];
 
