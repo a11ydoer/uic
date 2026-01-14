@@ -376,6 +376,11 @@ td:not(:first-child) {
     color: #B71C1C;
 }
 
+.status-badge.transition {
+    background-color: #F3E5F5;
+    color: #4A148C;
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 0 1rem;
