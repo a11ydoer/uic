@@ -16,7 +16,7 @@ const roles = [
 const tasks = [
     {
         activity: 'Accessibility Training and Consultation Services',
-        raci: { 'jemma': 'A', 'helen': 'A', 'blake': 'C', 'chris-a': 'I', 'michael': 'R', 'michelle': 'R', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'R', 'brother-j': 'I', 'stefin': 'I' }
+        raci: { 'jemma': 'C', 'helen': 'A', 'blake': 'C', 'chris-a': 'I', 'michael': 'R', 'michelle': 'R', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'R', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
         activity: 'Equalify Accessibility Platform',
@@ -43,7 +43,11 @@ const tasks = [
         raci: { 'jemma': 'C', 'helen': 'A', 'blake': 'C', 'chris-a': 'I', 'michael': 'R', 'michelle': 'R', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
-        activity: 'Accessibility Tool Set',
+        activity: 'Accessibility Outreach Beyond UIC',
+        raci: { 'jemma': 'A', 'helen': 'C', 'blake': 'R', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+    },
+    {
+        activity: 'Accessibility Resources and Tools',
         raci: { 'jemma': 'C', 'helen': 'A', 'blake': 'R', 'chris-a': 'I', 'michael': 'C', 'michelle': 'I', 'dylan': 'C', 'chris-k': 'C', 'trey': 'C', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
@@ -56,11 +60,15 @@ const tasks = [
     },
     {
         activity: 'Equalify Manual testing',
-        raci: { 'jemma': 'C', 'helen': 'C', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'R', 'trey': 'I', 'lucy': 'R', 'brother-j': 'R', 'stefin': 'I' }
+        raci: { 'jemma': 'C', 'helen': 'C', 'blake': 'A', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'R', 'trey': 'I', 'lucy': 'R', 'brother-j': 'R', 'stefin': 'I' }
     },
     {
-        activity: 'Accessibility Roadmap',
+        activity: 'UIC Accessibility Roadmap',
         raci: { 'jemma': 'A', 'helen': 'C', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'R', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+    },
+    {
+        activity: 'UIC Accessibility Report',
+        raci: { 'jemma': 'A', 'helen': 'R', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
         activity: 'New Employee Onboarding',
