@@ -489,3 +489,78 @@ td:not(:first-child) {
     white-space: nowrap;
     border: 0;
 }
+
+/* OKR - Key Results Dashboard Styles */
+.kr-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.objective-card {
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    padding: 2rem;
+    border-top: 5px solid var(--uic-red);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.objective-card h3 {
+    font-family: 'Merriweather', serif;
+    color: var(--uic-navy);
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+}
+
+.key-result {
+    margin-bottom: 1rem;
+}
+
+.kr-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+     font-weight: 700;
+    color: var(--uic-gray);
+}
+
+.kr-metric {
+    background-color: var(--uic-light-gray);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    color: var(--uic-navy);
+}
+
+.progress-bar-container {
+    background-color: #E0E0E0;
+    border-radius: 8px;
+    height: 12px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-bar-fill {
+    background-color: var(--uic-navy);
+    height: 100%;
+    border-radius: 8px;
+    transition: width 1s ease-in-out;
+}
+
+/* Variant colors for progress bars based on context if needed */
+.progress-bar-fill.high {
+    background-color: var(--col-c-text); /* Greenish for 'good' */
+}
+
+.progress-bar-fill.med {
+    background-color: #F57F17; /* Amber for 'warning' or mid-tier */
+}
