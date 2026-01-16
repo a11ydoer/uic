@@ -66,9 +66,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Merriweather', serif;
-    /* Serif for the logo part */
-    font-weight: 700;
+    font-family: 'Theinhardt', sans-serif;
+    /* User requested Theinhardt Medium */
+    font-weight: 500;
     font-size: 1.5rem;
     border: 3px solid var(--white);
     box-shadow: var(--shadow-sm);
