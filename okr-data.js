@@ -113,10 +113,36 @@ const tacticalObjectives = [
         ]
     },
     {
+        title: "Audit Digtial Assets",
+        keyResults: [
+            {
+                label: "Equalify Scanned URLs",
+                metric: "Count: 159,222",
+                currentValue: 95,
+                status: "high",
+                ariaLabel: "Number of Equalify scanned URLs"
+            },
+            {
+                label: "Equalify Scanned PDFs (RED)",
+                metric: "Count: 4,895",
+                currentValue: 90,
+                status: "high",
+                ariaLabel: "Number of Equalify scanned PDFs"
+            },
+            {
+                label: "Equalify Scanned PDFs (Blackboard)",
+                metric: "Count: 7,610",
+                currentValue: 88,
+                status: "high",
+                ariaLabel: "Number of Equalify scanned Blackboard PDFs"
+            }
+        ]
+    },
+    {
         title: "Launch & Integrate Equalify Platform",
         keyResults: [
             {
-                label: "System-wide Site Onboarding",
+                label: "UIC wide site onboarding",
                 metric: "Target: 200 Sites",
                 currentValue: 65,
                 status: "high",
