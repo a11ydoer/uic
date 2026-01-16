@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - UIC Digital Accessibility</title>
+    <!-- Lato and Merriweather Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="auth.js"></script>
+</head>
+
+<body class="login-body">
+
+    <div class="login-container">
+        <img src="uic-logo.svg" alt="UIC Logo" class="login-logo">
+        <h1>Protected Access</h1>
+        <p>Please enter the password to view the UIC Digital Accessibility Team site.</p>
+
+        <form id="loginForm" onsubmit="handleLogin(event)">
+            <div class="form-group">
+                <label for="password" class="visually-hidden">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter Password" required>
+            </div>
+            <button type="submit" class="cta-button">Enter Site</button>
+            <p id="error-message" class="error-msg" aria-live="polite"></p>
+        </form>
+    </div>
+
+    <script>
+        function handleLogin(e) {
+            e.preventDefault();
+            const password = document.getElementById('password').value;
+            const success = window.uicLogin(password);
+
+            if (!success) {
+                const errorMsg = document.getElementById('error-message');
+                errorMsg.textContent = "Incorrect password. Please try again.";
+                document.getElementById('password').value = '';
+                document.getElementById('password').focus();
+            }
+        }
+    </script>
+</body>
+
+</html>

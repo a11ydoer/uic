@@ -528,7 +528,7 @@ td:not(:first-child) {
     align-items: center;
     margin-bottom: 0.5rem;
     font-size: 0.95rem;
-     font-weight: 700;
+    font-weight: 700;
     color: var(--uic-gray);
 }
 
@@ -558,11 +558,13 @@ td:not(:first-child) {
 
 /* Variant colors for progress bars based on context if needed */
 .progress-bar-fill.high {
-    background-color: var(--col-c-text); /* Greenish for 'good' */
+    background-color: var(--col-c-text);
+    /* Greenish for 'good' */
 }
 
 .progress-bar-fill.med {
-    background-color: #F57F17; /* Amber for 'warning' or mid-tier */
+    background-color: #F57F17;
+    /* Amber for 'warning' or mid-tier */
 }
 
 /* Testimonials Page Styles */
@@ -700,4 +702,95 @@ td:not(:first-child) {
     font-size: 1rem;
     line-height: 1.5;
     font-style: italic;
+}
+
+/* --- Login Page Styles --- */
+.login-body {
+    background-color: var(--uic-light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.login-container {
+    background: white;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-container .login-logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1.5rem;
+}
+
+.login-container h1 {
+    font-family: 'Merriweather', serif;
+    color: var(--uic-navy);
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.login-container p {
+    margin-bottom: 2rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    /* Important for padding */
+}
+
+.login-container input[type="password"]:focus {
+    border-color: var(--uic-red);
+    outline: 2px solid var(--uic-red);
+    outline-offset: 2px;
+}
+
+.login-container .cta-button {
+    width: 100%;
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: var(--uic-red);
+    color: white;
+    font-weight: 700;
+    padding: 1rem;
+    border: none;
+    border-radius: 50px;
+    /* Rounded pill shape */
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 6px rgba(213, 0, 50, 0.2);
+}
+
+.login-container .cta-button:hover {
+    background-color: #a80025;
+    /* Darker red */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(213, 0, 50, 0.3);
+}
+
+.login-container .cta-button:active {
+    transform: translateY(0);
+}
+
+.error-msg {
+    color: var(--uic-red);
+    margin-top: 1rem;
+    font-weight: bold;
+    min-height: 1.5rem;
+    /* prevent jump */
 }
