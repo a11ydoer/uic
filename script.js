@@ -96,7 +96,7 @@ const tasks = [
     },
     {
         activity: 'Accessibility Evaluation',
-        raci: { 'jemma': 'C', 'helen': 'R', 'blake': 'I', 'chris-a': 'I', 'michael': 'R', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'R', 'brother-j': 'R', 'stefin': 'I' }
+        raci: { 'jemma': 'I', 'helen': 'R', 'blake': 'I', 'chris-a': 'I', 'michael': 'R', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'R', 'brother-j': 'R', 'stefin': 'I' }
     },
     {
         activity: 'Scheduling Team Meetings',
