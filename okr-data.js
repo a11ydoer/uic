@@ -1,6 +1,6 @@
 const tacticalObjectives = [
     {
-        title: "General Accessibility Awareness Campaign",
+        title: "Promote General Accessibility Awareness",
         subtitle: "Oct 2025 - Jan 2026",
         keyResults: [
             {
@@ -27,7 +27,7 @@ const tacticalObjectives = [
         ]
     },
     {
-        title: "Accessibility Training",
+        title: "Deliver Comprehensive Accessibility Training",
         subtitle: "Jan 2025 - Dec 2025",
         keyResults: [
             {
@@ -54,7 +54,7 @@ const tacticalObjectives = [
         ]
     },
     {
-        title: "Support & Ticketing",
+        title: "Provide Efficient Support & Issue Resolution",
         subtitle: "June 2021 - Jan 2026",
         keyResults: [
             {
@@ -81,7 +81,7 @@ const tacticalObjectives = [
         ]
     },
     {
-        title: "Accessibility Outreach",
+        title: "Expand Accessibility Outreach & Partnerships",
         keyResults: [
             {
                 label: "UIC Accessibility Liaisons",
@@ -101,7 +101,7 @@ const tacticalObjectives = [
         ]
     },
     {
-        title: "Enhance Digital Compliance",
+        title: "Enhance Digital Compliance & Standards",
         keyResults: [
             {
                 label: "Number of UIC Sites Audited",
