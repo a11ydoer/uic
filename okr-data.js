@@ -92,28 +92,6 @@ const tacticalObjectives = [
         ]
     },
     {
-        title: "Enhance Digital Compliance & Standards",
-        subtitle: "Jan 2026",
-        keyResults: [
-            {
-                label: "Number of UIC Sites Audited",
-                metric: "Target: 95%",
-                currentValue: 45,
-                status: "med",
-                ariaLabel: "Number of UIC sites audit progress"
-            },
-            {
-                label: "Deque Accessibility Score",
-                metric: "Score: 82/100",
-                currentValue: 82,
-                status: "high",
-                ariaLabel: "Deque accessibility score"
-            },
-
-
-        ]
-    },
-    {
         title: "Audit UIC Digtial Assets",
         subtitle: "October 2025",
         keyResults: [
@@ -138,6 +116,28 @@ const tacticalObjectives = [
                 status: "high",
                 ariaLabel: "Number of Equalify scanned Blackboard PDFs"
             }
+        ]
+    },
+    {
+        title: "Enhance Digital Compliance & Standards",
+        subtitle: "Jan 2026",
+        keyResults: [
+            {
+                label: "Number of UIC Sites Audited",
+                metric: "Target: 95%",
+                currentValue: 45,
+                status: "med",
+                ariaLabel: "Number of UIC sites audit progress"
+            },
+            {
+                label: "Deque Accessibility Score",
+                metric: "Score: 82/100",
+                currentValue: 82,
+                status: "high",
+                ariaLabel: "Deque accessibility score"
+            },
+
+
         ]
     },
     {
