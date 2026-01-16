@@ -142,6 +142,7 @@ const tacticalObjectives = [
         title: "Launch & Integrate Equalify Platform (Upcoming)",
         subtitle: "Feb 2026 - June 2026",
         keyResults: [
+            /*
             {
                 label: "UIC wide site onboarding",
                 metric: "Target: 200 Sites",
@@ -156,6 +157,14 @@ const tacticalObjectives = [
                 currentValue: 30,
                 status: "med",
                 ariaLabel: "User training sessions"
+            }
+            */
+            {
+                label: "Status",
+                metric: "Upcoming",
+                currentValue: 0,
+                status: "med",
+                ariaLabel: "Upcoming functionality"
             }
         ]
     },
