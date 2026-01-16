@@ -48,11 +48,11 @@ const tasks = [
     },
     {
         activity: 'Accessibility Resources and Tools',
-        raci: { 'jemma': 'C', 'helen': 'A', 'blake': 'R', 'chris-a': 'I', 'michael': 'C', 'michelle': 'I', 'dylan': 'C', 'chris-k': 'C', 'trey': 'C', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+        raci: { 'jemma': 'I', 'helen': 'A', 'blake': 'R', 'chris-a': 'I', 'michael': 'C', 'michelle': 'I', 'dylan': 'C', 'chris-k': 'C', 'trey': 'C', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
         activity: 'Equalify Reflow (AI PDF Converter)',
-        raci: { 'jemma': 'C', 'helen': 'I', 'blake': 'R', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'R', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+        raci: { 'jemma': 'I', 'helen': 'I', 'blake': 'R', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'R', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
         activity: 'Equalify Roadmap',
@@ -60,7 +60,7 @@ const tasks = [
     },
     {
         activity: 'Equalify Manual testing',
-        raci: { 'jemma': 'C', 'helen': 'C', 'blake': 'A', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'R', 'trey': 'I', 'lucy': 'R', 'brother-j': 'R', 'stefin': 'I' }
+        raci: { 'jemma': 'I', 'helen': 'C', 'blake': 'A', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'R', 'trey': 'I', 'lucy': 'R', 'brother-j': 'R', 'stefin': 'I' }
     },
     {
         activity: 'UIC Accessibility Maturity Model',
@@ -72,11 +72,11 @@ const tasks = [
     },
     {
         activity: 'DASE Team Support',
-        raci: { 'jemma': 'C', 'helen': 'A', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'R', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+        raci: { 'jemma': 'I', 'helen': 'A', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'R', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
         activity: 'Equalify Infrastructure',
-        raci: { 'jemma': 'C', 'helen': 'C', 'blake': 'C', 'chris-a': 'R', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+        raci: { 'jemma': 'I', 'helen': 'C', 'blake': 'C', 'chris-a': 'R', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
         activity: 'Exception Review Process',
