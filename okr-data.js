@@ -17,13 +17,7 @@ const tacticalObjectives = [
                 status: "med",
                 ariaLabel: "In progress participants count"
             },
-            {
-                label: "Enrolled",
-                metric: "Count: 5",
-                currentValue: 2,
-                status: "",
-                ariaLabel: "Enrolled participants count"
-            }
+
         ]
     },
     {
