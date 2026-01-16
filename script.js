@@ -64,7 +64,7 @@ const tasks = [
     },
     {
         activity: 'UIC Accessibility Maturity Model',
-        raci: { 'jemma': 'A', 'helen': 'C', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'R', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+        raci: { 'jemma': 'R', 'helen': 'C', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'R', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
         activity: 'UIC Accessibility Report',
