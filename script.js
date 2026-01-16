@@ -43,7 +43,7 @@ const tasks = [
         raci: { 'jemma': 'C', 'helen': 'A', 'blake': 'C', 'chris-a': 'I', 'michael': 'R', 'michelle': 'R', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
-        activity: 'Accessibility Outreach Beyond UIC',
+        activity: 'Scaling Accessibility Impact Beyond UIC',
         raci: { 'jemma': 'A', 'helen': 'C', 'blake': 'R', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'R' }
     },
     {
