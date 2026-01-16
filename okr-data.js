@@ -60,6 +60,13 @@ const tacticalObjectives = [
                 ariaLabel: "Office hours visitors progress"
             },
             {
+                label: "One on One Consultation",
+                metric: "Total: 55 People",
+                currentValue: 35,
+                status: "high",
+                ariaLabel: "One on one consultation progress"
+            },
+            {
                 label: "Avg Response Time",
                 metric: "Time: < 4 Hours",
                 currentValue: 90,
