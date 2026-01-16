@@ -43,11 +43,11 @@ const tacticalObjectives = [
     },
     {
         title: "Provide Consultation Services",
-        subtitle: "June 2021 - Jan 2026",
+        subtitle: "Dec 2025 - Jan 2026",
         keyResults: [
             {
                 label: "Help Desk Tickets Resolved",
-                metric: "Closed: 417",
+                metric: "Closed: 263",
                 currentValue: 95, // Higher scale for higher number
                 status: "high",
                 ariaLabel: "Tickets resolved"
