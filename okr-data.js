@@ -42,7 +42,7 @@ const tacticalObjectives = [
         ]
     },
     {
-        title: "Provide Efficient Support & Issue Resolution",
+        title: "Provide Consultation Services",
         subtitle: "June 2021 - Jan 2026",
         keyResults: [
             {
