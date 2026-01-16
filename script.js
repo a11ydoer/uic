@@ -105,6 +105,10 @@ const tasks = [
     {
         activity: 'Managing the Engineering Team and Open Source Fund Communication',
         raci: { 'jemma': 'C', 'helen': 'I', 'blake': 'C', 'chris-a': 'I', 'michael': 'I', 'michelle': 'R', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'C' }
+    },
+    {
+        activity: 'Broadening Accessibility Through Open and Shared Initiatives',
+        raci: { 'jemma': 'C', 'helen': 'I', 'blake': 'A', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     }
 ];
 
