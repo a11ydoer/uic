@@ -140,6 +140,7 @@ const tacticalObjectives = [
     },
     {
         title: "Launch & Integrate Equalify Platform",
+        subtitle: "Feb 2026 - June 2026",
         keyResults: [
             {
                 label: "UIC wide site onboarding",
@@ -148,13 +149,7 @@ const tacticalObjectives = [
                 status: "high",
                 ariaLabel: "Equalify site onboarding progress"
             },
-            {
-                label: "CMS & LMS Integrations",
-                metric: "Systems: WordPress, Canvas",
-                currentValue: 50, // 1 of 2 done
-                status: "med",
-                ariaLabel: "Integration progress"
-            },
+
             {
                 label: "User Onboarding Sessions",
                 metric: "Sessions: 10",
