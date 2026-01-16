@@ -72,6 +72,7 @@ const tacticalObjectives = [
     },
     {
         title: "Expand Accessibility Outreach & Partnerships",
+        subtitle: "May 2024 - Jan 2026",
         keyResults: [
             {
                 label: "UIC Accessibility Liaisons",
