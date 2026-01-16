@@ -97,6 +97,14 @@ const tasks = [
     {
         activity: 'Accessibility Evaluation',
         raci: { 'jemma': 'A', 'helen': 'R', 'blake': 'I', 'chris-a': 'I', 'michael': 'R', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'R', 'brother-j': 'R', 'stefin': 'I' }
+    },
+    {
+        activity: 'Scheduling Team Meetings',
+        raci: { 'jemma': 'I', 'helen': 'I', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'R', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+    },
+    {
+        activity: 'Managing the Engineering Team and Open Source Fund Communication',
+        raci: { 'jemma': 'A', 'helen': 'I', 'blake': 'C', 'chris-a': 'I', 'michael': 'I', 'michelle': 'R', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'C' }
     }
 ];
 
