@@ -70,6 +70,9 @@ body {
     /* User requested Theinhardt Medium */
     font-weight: 500;
     font-size: 1.5rem;
+    transform: none;
+    /* Reset transform just in case */
+    border: none;
     box-shadow: var(--shadow-sm);
 }
 
