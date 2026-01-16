@@ -144,7 +144,7 @@ function renderRoleCards() {
             const assignedTasks = tasks.filter(task => {
                 const val = task.raci[role.id];
                 return val && val.includes(cat.code);
-            });
+            }).sort((a, b) => a.activity.localeCompare(b.activity));
 
             if (assignedTasks.length > 0) {
                 const group = document.createElement('div');
