@@ -724,12 +724,6 @@ td:not(:first-child) {
     text-align: center;
 }
 
-.login-container .login-logo {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 1.5rem;
-}
-
 .login-container h1 {
     font-family: 'Merriweather', serif;
     color: var(--uic-navy);
