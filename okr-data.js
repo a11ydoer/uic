@@ -66,13 +66,7 @@ const tacticalObjectives = [
                 status: "high",
                 ariaLabel: "One on one consultation progress"
             },
-            {
-                label: "Avg Response Time",
-                metric: "Time: < 4 Hours",
-                currentValue: 90,
-                status: "high",
-                ariaLabel: "Response time metric"
-            },
+
 
         ]
     },
