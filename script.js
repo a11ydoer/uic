@@ -16,7 +16,7 @@ const roles = [
 const tasks = [
     {
         activity: 'Accessibility Training and Consultation Services',
-        raci: { 'jemma': 'C', 'helen': 'A', 'blake': 'C', 'chris-a': 'I', 'michael': 'R', 'michelle': 'R', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'R', 'brother-j': 'I', 'stefin': 'I' }
+        raci: { 'jemma': 'C', 'helen': 'A', 'blake': 'C', 'chris-a': 'I', 'michael': 'R', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'R', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
         activity: 'Equalify Accessibility Platform',
@@ -24,7 +24,7 @@ const tasks = [
     },
     {
         activity: 'Equalify Transition and Training',
-        raci: { 'jemma': 'A/R', 'helen': 'R', 'blake': 'R', 'chris-a': 'C', 'michael': 'R', 'michelle': 'R', 'dylan': 'C', 'chris-k': 'C', 'trey': 'C', 'lucy': 'R', 'brother-j': 'I', 'stefin': 'I' }
+        raci: { 'jemma': 'A/R', 'helen': 'R', 'blake': 'R', 'chris-a': 'C', 'michael': 'R', 'michelle': 'I', 'dylan': 'C', 'chris-k': 'C', 'trey': 'C', 'lucy': 'R', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
         activity: 'UIC Open Source Fund',
