@@ -119,10 +119,9 @@ const tacticalObjectives = [
             },
 
         ]
-        ]
     },
-{
-    title: "Launch & Integrate Equalify Platform",
+    {
+        title: "Launch & Integrate Equalify Platform",
         keyResults: [
             {
                 label: "System-wide Site Onboarding",
@@ -146,9 +145,9 @@ const tacticalObjectives = [
                 ariaLabel: "User training sessions"
             }
         ]
-},
-{
-    title: "Champion AI Innovation & Open Source",
+    },
+    {
+        title: "Champion AI Innovation & Open Source",
         keyResults: [
             {
                 label: "AI PDF Remediation (Reflow)",
@@ -172,5 +171,5 @@ const tacticalObjectives = [
                 ariaLabel: "AI literacy workshops count"
             }
         ]
-}
+    }
 ];
