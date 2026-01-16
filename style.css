@@ -67,8 +67,8 @@ body {
     align-items: center;
     justify-content: center;
     font-family: 'Theinhardt', sans-serif;
-    /* User requested Theinhardt Medium */
-    font-weight: 500;
+    /* User requested Theinhardt Bold */
+    font-weight: 700;
     font-size: 1.5rem;
     transform: none;
     /* Reset transform just in case */
