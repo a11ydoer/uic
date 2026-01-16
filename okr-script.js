@@ -1,5 +1,20 @@
 function initOKR() {
+    renderOKRSummary();
     renderOKRCards();
+}
+
+function renderOKRSummary() {
+    const summaryContainer = document.getElementById('summary-list');
+    if (!summaryContainer) return;
+
+    summaryContainer.innerHTML = '';
+
+    tacticalObjectives.forEach(obj => {
+        const item = document.createElement('div');
+        item.classList.add('summary-item');
+        item.textContent = obj.title;
+        summaryContainer.appendChild(item);
+    });
 }
 
 function renderOKRCards() {
