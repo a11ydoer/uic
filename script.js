@@ -71,7 +71,7 @@ const tasks = [
         raci: { 'jemma': 'A', 'helen': 'R', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
-        activity: 'New Employee Onboarding',
+        activity: 'DASE Team Support',
         raci: { 'jemma': 'C', 'helen': 'A', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'R', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
