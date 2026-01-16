@@ -498,6 +498,13 @@ td:not(:first-child) {
     padding: 1rem 0;
 }
 
+.page-section-title {
+    color: var(--uic-navy);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif;
+}
+
 .summary-section {
     background: white;
     padding: 2rem;
