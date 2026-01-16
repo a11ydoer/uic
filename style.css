@@ -515,34 +515,22 @@ td:not(:first-child) {
 }
 
 .summary-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    list-style: none;
-    /* Remove bullets */
-    padding-left: 0;
-    /* Remove default padding */
-    margin: 0;
-    /* Remove default margin */
+    padding-left: 2rem;
+    /* Indent for numbers */
+    margin-bottom: 0;
 }
 
 .summary-item {
-    background: var(--uic-light-gray);
-    padding: 0.8rem 1.2rem;
-    border-radius: 50px;
-    font-size: 0.95rem;
-    font-weight: 700;
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
     color: var(--uic-navy);
-    border: 1px solid #ddd;
-    transition: all 0.2s ease;
-    display: inline-block;
-    /* Ensure it behaves like a block/pill */
+    line-height: 1.4;
+    transition: color 0.2s ease;
 }
 
 .summary-item:hover {
-    background: var(--uic-navy);
-    color: white;
-    transform: translateY(-2px);
+    color: var(--uic-red);
+    text-decoration: underline;
 }
 
 .objective-card {
