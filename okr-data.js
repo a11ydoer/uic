@@ -119,5 +119,58 @@ const tacticalObjectives = [
             },
 
         ]
-    }
+        ]
+    },
+{
+    title: "Launch & Integrate Equalify Platform",
+        keyResults: [
+            {
+                label: "System-wide Site Onboarding",
+                metric: "Target: 200 Sites",
+                currentValue: 65,
+                status: "high",
+                ariaLabel: "Equalify site onboarding progress"
+            },
+            {
+                label: "CMS & LMS Integrations",
+                metric: "Systems: WordPress, Canvas",
+                currentValue: 50, // 1 of 2 done
+                status: "med",
+                ariaLabel: "Integration progress"
+            },
+            {
+                label: "User Onboarding Sessions",
+                metric: "Sessions: 10",
+                currentValue: 30,
+                status: "med",
+                ariaLabel: "User training sessions"
+            }
+        ]
+},
+{
+    title: "Champion AI Innovation & Open Source",
+        keyResults: [
+            {
+                label: "AI PDF Remediation (Reflow)",
+                metric: "Docs Processed: 500+",
+                currentValue: 20,
+                status: "med",
+                ariaLabel: "AI PDF processing count"
+            },
+            {
+                label: "Open Source Grants Awarded",
+                metric: "Grants: 3",
+                currentValue: 33, // 1 awarded
+                status: "med",
+                ariaLabel: "Open source grants progress"
+            },
+            {
+                label: "AI Literacy Workshops",
+                metric: "Workshops: 4",
+                currentValue: 25,
+                status: "high",
+                ariaLabel: "AI literacy workshops count"
+            }
+        ]
+}
 ];
