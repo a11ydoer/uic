@@ -33,7 +33,7 @@ const tacticalObjectives = [
             },
             {
                 label: "Department & Unit Training Attendees",
-                metric: "Total: 145 People",
+                metric: "Total: 175 People",
                 currentValue: 80,
                 status: "high",
                 ariaLabel: "Department training attendees progress"
