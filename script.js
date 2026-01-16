@@ -68,7 +68,7 @@ const tasks = [
     },
     {
         activity: 'UIC Accessibility Report',
-        raci: { 'jemma': 'A', 'helen': 'R', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+        raci: { 'jemma': 'C', 'helen': 'R', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
         activity: 'DASE Team Support',
@@ -92,11 +92,11 @@ const tasks = [
     },
     {
         activity: 'Accessibility Technology Procurement',
-        raci: { 'jemma': 'A', 'helen': 'R', 'blake': 'C', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+        raci: { 'jemma': 'C', 'helen': 'R', 'blake': 'C', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
     },
     {
         activity: 'Accessibility Evaluation',
-        raci: { 'jemma': 'A', 'helen': 'R', 'blake': 'I', 'chris-a': 'I', 'michael': 'R', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'R', 'brother-j': 'R', 'stefin': 'I' }
+        raci: { 'jemma': 'C', 'helen': 'R', 'blake': 'I', 'chris-a': 'I', 'michael': 'R', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'R', 'brother-j': 'R', 'stefin': 'I' }
     },
     {
         activity: 'Scheduling Team Meetings',
@@ -104,7 +104,7 @@ const tasks = [
     },
     {
         activity: 'Managing the Engineering Team and Open Source Fund Communication',
-        raci: { 'jemma': 'A', 'helen': 'I', 'blake': 'C', 'chris-a': 'I', 'michael': 'I', 'michelle': 'R', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'C' }
+        raci: { 'jemma': 'C', 'helen': 'I', 'blake': 'C', 'chris-a': 'I', 'michael': 'I', 'michelle': 'R', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'C' }
     }
 ];
 
