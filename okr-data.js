@@ -161,13 +161,7 @@ const tacticalObjectives = [
     {
         title: "Champion AI Innovation & Open Source",
         keyResults: [
-            {
-                label: "AI PDF Remediation (Reflow)",
-                metric: "Docs Processed: 500+",
-                currentValue: 20,
-                status: "med",
-                ariaLabel: "AI PDF processing count"
-            },
+
             {
                 label: "Open Source Grants Awarded",
                 metric: "Grants: 3",
