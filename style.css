@@ -597,8 +597,8 @@ td:not(:first-child) {
 }
 
 .progress-bar-fill {
-    background-color: #F57F17;
-    /* Unified Amber Color */
+    background-color: var(--col-c-text);
+    /* Unified Green Color */
     height: 100%;
     border-radius: 8px;
     transition: width 1s ease-in-out;
