@@ -116,14 +116,14 @@ const tacticalObjectives = [
                 ariaLabel: "Number of Equalify scanned URLs"
             },
             {
-                label: "Equalify Scanned PDFs",
+                label: "Equalify Scanned PDFs (RED)",
                 metric: "Count: 4,895",
                 currentValue: 90,
                 status: "high",
                 ariaLabel: "Number of Equalify scanned PDFs"
             },
             {
-                label: "Equalify Blackboard PDFs",
+                label: "Equalify Scanned PDFs (Blackboard)",
                 metric: "Count: 7,610",
                 currentValue: 88,
                 status: "high",
