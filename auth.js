@@ -20,7 +20,7 @@
     // 4. Secure Login Function (SHA-256)
     // Stored Hash for "uic-a11y-2026"
     // Generated via: echo -n "uic-a11y-2026" | openssl dgst -sha256
-    const STORED_HASH = "8ed2d98a002b8d0034604a180164c8c764e52e519c72e4242691eb534720972c";
+    const STORED_HASH = "89d4968a6a8d7ad45c60a570db69829c08a90a8a820da5c9d320421d528ae4ff";
 
     async function hashString(str) {
         const encoder = new TextEncoder();
