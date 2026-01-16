@@ -113,7 +113,7 @@ const tacticalObjectives = [
         ]
     },
     {
-        title: "Audit Digtial Assets",
+        title: "Audit UIC Digtial Assets",
         keyResults: [
             {
                 label: "Equalify Scanned URLs",
