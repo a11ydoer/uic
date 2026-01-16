@@ -108,6 +108,20 @@ const tacticalObjectives = [
                 status: "high",
                 ariaLabel: "Deque accessibility score"
             },
+            {
+                label: "Equalify Scanned URLs",
+                metric: "Count: 159,222",
+                currentValue: 95,
+                status: "high",
+                ariaLabel: "Number of Equalify scanned URLs"
+            },
+            {
+                label: "Equalify Scanned PDFs",
+                metric: "Count: 4,895",
+                currentValue: 90,
+                status: "high",
+                ariaLabel: "Number of Equalify scanned PDFs"
+            },
 
         ]
     },
