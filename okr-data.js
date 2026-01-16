@@ -161,6 +161,7 @@ const tacticalObjectives = [
     },
     {
         title: "Champion AI Innovation & Open Source",
+        subtitle: "Feb 2026 - June 2026",
         keyResults: [
 
             /*
