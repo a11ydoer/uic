@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UIC Digital Accessibility</title>
+    <script src="auth.js"></script>
     <link rel="stylesheet" href="style.css">
     <style>
         body {
@@ -22,6 +23,38 @@
             font-family: 'Merriweather', serif;
             font-size: 2.5rem;
             margin-bottom: 2rem;
+            max-width: 800px;
+            /* Prevent it from being too wide */
+            line-height: 1.3;
+        }
+
+        .welcome-logo {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 1.5rem;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .welcome-text {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 0.5rem;
+            font-family: 'Lato', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .nav-links {
@@ -74,6 +107,8 @@
 </head>
 
 <body>
+    <img src="uic-logo.svg" alt="UIC Digital Accessibility Logo" class="welcome-logo">
+    <p class="welcome-text">Welcome to the Hub of Digital Inclusion</p>
     <h1>UIC Digital Accessibility Services and Engineering Team</h1>
 
     <div class="nav-links">
