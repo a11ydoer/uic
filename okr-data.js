@@ -38,13 +38,7 @@ const tacticalObjectives = [
                 status: "high",
                 ariaLabel: "Department training attendees progress"
             },
-            {
-                label: "Office Hours Visitors",
-                metric: "Total: 24 People",
-                currentValue: 15, // Lower scale for smaller number
-                status: "med",
-                ariaLabel: "Office hours visitors progress"
-            }
+
         ]
     },
     {
@@ -57,6 +51,13 @@ const tacticalObjectives = [
                 currentValue: 95, // Higher scale for higher number
                 status: "high",
                 ariaLabel: "Tickets resolved"
+            },
+            {
+                label: "Office Hours Visitors",
+                metric: "Total: 24 People",
+                currentValue: 15, // Lower scale for smaller number
+                status: "med",
+                ariaLabel: "Office hours visitors progress"
             },
             {
                 label: "Avg Response Time",
