@@ -66,13 +66,7 @@ const tacticalObjectives = [
                 status: "high",
                 ariaLabel: "Response time metric"
             },
-            {
-                label: "User Satisfaction Score",
-                metric: "Rating: 4.8/5",
-                currentValue: 96,
-                status: "high",
-                ariaLabel: "User satisfaction rating"
-            }
+
         ]
     },
     {
