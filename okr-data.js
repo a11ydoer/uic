@@ -139,7 +139,7 @@ const tacticalObjectives = [
         ]
     },
     {
-        title: "Launch & Integrate Equalify Platform",
+        title: "Launch & Integrate Equalify Platform (Upcoming)",
         subtitle: "Feb 2026 - June 2026",
         keyResults: [
             {
@@ -160,7 +160,7 @@ const tacticalObjectives = [
         ]
     },
     {
-        title: "Champion AI Innovation & Open Source",
+        title: "Champion AI Innovation & Open Source (Upcoming)",
         subtitle: "Feb 2026 - June 2026",
         keyResults: [
 
