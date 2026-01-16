@@ -387,6 +387,11 @@ td:not(:first-child) {
         margin: 2rem auto;
     }
 
+    .summary-grid {
+        column-count: 1;
+        /* Stack on mobile */
+    }
+
     .uic-header h1 {
         font-size: 1.4rem;
     }
@@ -520,14 +525,19 @@ td:not(:first-child) {
     padding-left: 2rem;
     /* Indent for numbers */
     margin-bottom: 0;
+    column-count: 2;
+    column-gap: 2rem;
 }
 
 .summary-item {
-    padding: 0.5rem 0;
+    padding: 0.25rem 0;
+    /* Reduced padding for compactness */
     font-size: 1.1rem;
     color: var(--uic-navy);
     line-height: 1.4;
     transition: color 0.2s ease;
+    break-inside: avoid;
+    /* Prevent split across columns */
 }
 
 .summary-item:hover {
