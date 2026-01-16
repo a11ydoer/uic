@@ -164,7 +164,7 @@ const tacticalObjectives = [
 
             {
                 label: "Open Source Grants Awarded",
-                metric: "Grants: 3",
+                metric: "in progress",
                 currentValue: 33, // 1 awarded
                 status: "med",
                 ariaLabel: "Open source grants progress"
