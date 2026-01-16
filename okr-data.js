@@ -93,6 +93,7 @@ const tacticalObjectives = [
     },
     {
         title: "Enhance Digital Compliance & Standards",
+        subtitle: "Jan 2026",
         keyResults: [
             {
                 label: "Number of UIC Sites Audited",
@@ -114,6 +115,7 @@ const tacticalObjectives = [
     },
     {
         title: "Audit UIC Digtial Assets",
+        subtitle: "October 2025",
         keyResults: [
             {
                 label: "Equalify Scanned URLs",
