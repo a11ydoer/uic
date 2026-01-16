@@ -89,6 +89,14 @@ const tasks = [
     {
         activity: 'Budget Planning',
         raci: { 'jemma': 'A', 'helen': 'I', 'blake': 'I', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+    },
+    {
+        activity: 'Accessibility Technology Procurement',
+        raci: { 'jemma': 'A', 'helen': 'R', 'blake': 'C', 'chris-a': 'I', 'michael': 'I', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'I', 'brother-j': 'I', 'stefin': 'I' }
+    },
+    {
+        activity: 'Accessibility Evaluation',
+        raci: { 'jemma': 'A', 'helen': 'R', 'blake': 'I', 'chris-a': 'I', 'michael': 'R', 'michelle': 'I', 'dylan': 'I', 'chris-k': 'I', 'trey': 'I', 'lucy': 'R', 'brother-j': 'R', 'stefin': 'I' }
     }
 ];
 
