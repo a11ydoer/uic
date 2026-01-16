@@ -597,22 +597,14 @@ td:not(:first-child) {
 }
 
 .progress-bar-fill {
-    background-color: var(--uic-navy);
+    background-color: #F57F17;
+    /* Unified Amber Color */
     height: 100%;
     border-radius: 8px;
     transition: width 1s ease-in-out;
 }
 
-/* Variant colors for progress bars based on context if needed */
-.progress-bar-fill.high {
-    background-color: var(--col-c-text);
-    /* Greenish for 'good' */
-}
 
-.progress-bar-fill.med {
-    background-color: #F57F17;
-    /* Amber for 'warning' or mid-tier */
-}
 
 /* Testimonials Page Styles */
 .testimonial-grid {
