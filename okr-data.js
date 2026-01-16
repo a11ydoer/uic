@@ -53,11 +53,11 @@ const tacticalObjectives = [
                 ariaLabel: "Tickets resolved"
             },
             {
-                label: "Office Hours Visitors",
-                metric: "Total: 24 People",
-                currentValue: 15, // Lower scale for smaller number
+                label: "Office Hours",
+                metric: "Total: 56 Hours",
+                currentValue: 25, // Adjusted keeping scale relative
                 status: "med",
-                ariaLabel: "Office hours visitors progress"
+                ariaLabel: "Office hours progress"
             },
             {
                 label: "One on One Consultation",
