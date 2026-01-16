@@ -35,10 +35,10 @@
     </div>
 
     <script>
-        function handleLogin(e) {
+        async function handleLogin(e) {
             e.preventDefault();
             const password = document.getElementById('password').value;
-            const success = window.uicLogin(password);
+            const success = await window.uicLogin(password);
 
             if (!success) {
                 const errorMsg = document.getElementById('error-message');
