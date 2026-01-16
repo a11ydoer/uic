@@ -518,6 +518,12 @@ td:not(:first-child) {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    list-style: none;
+    /* Remove bullets */
+    padding-left: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
 }
 
 .summary-item {
@@ -529,6 +535,8 @@ td:not(:first-child) {
     color: var(--uic-navy);
     border: 1px solid #ddd;
     transition: all 0.2s ease;
+    display: inline-block;
+    /* Ensure it behaves like a block/pill */
 }
 
 .summary-item:hover {

@@ -10,7 +10,7 @@ function renderOKRSummary() {
     summaryContainer.innerHTML = '';
 
     tacticalObjectives.forEach(obj => {
-        const item = document.createElement('div');
+        const item = document.createElement('li');
         item.classList.add('summary-item');
         item.textContent = obj.title;
         summaryContainer.appendChild(item);
