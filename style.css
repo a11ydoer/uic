@@ -70,7 +70,6 @@ body {
     /* User requested Theinhardt Medium */
     font-weight: 500;
     font-size: 1.5rem;
-    border: 3px solid var(--white);
     box-shadow: var(--shadow-sm);
 }
 
