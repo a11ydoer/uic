@@ -163,6 +163,7 @@ const tacticalObjectives = [
         title: "Champion AI Innovation & Open Source",
         keyResults: [
 
+            /*
             {
                 label: "Open Source Grants Awarded",
                 metric: "in progress",
@@ -176,6 +177,14 @@ const tacticalObjectives = [
                 currentValue: 25,
                 status: "high",
                 ariaLabel: "AI literacy workshops count"
+            }
+            */
+            {
+                label: "Status",
+                metric: "Upcoming",
+                currentValue: 0,
+                status: "med",
+                ariaLabel: "Upcoming functionality"
             }
         ]
     }
