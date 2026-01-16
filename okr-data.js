@@ -81,6 +81,32 @@ const tacticalObjectives = [
         ]
     },
     {
+        title: "Accessibility Outreach",
+        keyResults: [
+            {
+                label: "UIC Accessibility Liaisons",
+                metric: "Total: 56",
+                currentValue: 56,
+                status: "med",
+                ariaLabel: "UIC accessibility liaisons count"
+            },
+            {
+                label: "Departments Represented",
+                metric: "Count: 32",
+                currentValue: 64,
+                status: "med",
+                ariaLabel: "Departments represented count"
+            },
+            {
+                label: "Annual Liaison Workshop Event",
+                metric: "Count: 2 (2025 & 2026)",
+                currentValue: 100, // 2 completed
+                status: "high",
+                ariaLabel: "Annual liaison workshop events"
+            }
+        ]
+    },
+    {
         title: "Enhance Digital Compliance",
         keyResults: [
             {

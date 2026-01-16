@@ -42,6 +42,34 @@
         .nav-links a:hover {
             background-color: #a80025;
         }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            body {
+                height: auto;
+                min-height: 100vh;
+                padding: 2rem 1rem;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+                margin-bottom: 2.5rem;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                gap: 1rem;
+                width: 100%;
+                max-width: 400px;
+            }
+
+            .nav-links a {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+                padding: 1rem;
+            }
+        }
     </style>
 </head>
 
@@ -51,8 +79,8 @@
     <div class="nav-links">
         <a href="project-portfolio.html">Project Portfolio</a>
         <a href="raci.html">RACI Matrix</a>
-        <a href="key-results.html">Key Results</a>
         <a href="testimonials.html">Testimonials</a>
+        <a href="members.html">Members</a>
     </div>
 </body>
 
