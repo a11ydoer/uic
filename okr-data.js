@@ -82,11 +82,11 @@ const tacticalObjectives = [
                 ariaLabel: "UIC accessibility liaisons count"
             },
             {
-                label: "Departments Represented",
-                metric: "Count: 32",
-                currentValue: 64,
+                label: "Departments Engaged",
+                metric: "Count: 62",
+                currentValue: 62,
                 status: "med",
-                ariaLabel: "Departments represented count"
+                ariaLabel: "Departments engaged count"
             },
 
         ]
