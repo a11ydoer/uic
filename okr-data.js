@@ -4,20 +4,33 @@ const tacticalObjectives = [
         subtitle: "Oct 2025 - Jan 2026",
         keyResults: [
             {
-                label: "Finished",
-                metric: "Count: 399",
-                currentValue: 80,
+                label: "Completion of Training",
+                metric: "Count: 211",
+                currentValue: 70,
                 status: "high",
-                ariaLabel: "Finished participants count"
+                ariaLabel: "Completion of training count"
             },
             {
-                label: "In Progress",
-                metric: "Count: 182",
+                label: "Training in Progress",
+                metric: "Count: 112",
                 currentValue: 40,
                 status: "med",
-                ariaLabel: "In progress participants count"
+                ariaLabel: "Training in progress count"
             },
-
+            {
+                label: "Number of participating colleges",
+                metric: "Count: 33",
+                currentValue: 90,
+                status: "high",
+                ariaLabel: "Participating colleges count"
+            },
+            {
+                label: "Number of participating department",
+                metric: "Count: 75",
+                currentValue: 90,
+                status: "high",
+                ariaLabel: "Participating departments count"
+            }
         ]
     },
     {
