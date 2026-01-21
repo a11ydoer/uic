@@ -124,16 +124,16 @@ const tacticalObjectives = [
         keyResults: [
             {
                 label: "Number of UIC Sites Audited",
-                metric: "Target: 95%",
-                currentValue: 45,
-                status: "med",
+                metric: "Count: 1,014",
+                currentValue: 100,
+                status: "high",
                 ariaLabel: "Number of UIC sites audit progress"
             },
             {
-                label: "Deque Accessibility Score",
-                metric: "Score: 82/100",
-                currentValue: 82,
-                status: "high",
+                label: "Accessibility Score of Scanned UIC Websites",
+                metric: "Score: 62%",
+                currentValue: 62,
+                status: "med",
                 ariaLabel: "Deque accessibility score"
             },
 
